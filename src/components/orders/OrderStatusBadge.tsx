@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/badge";
 import type { OrderStatus } from "@/lib/types";
 
 type Tone = Parameters<typeof Badge>[0]["tone"];

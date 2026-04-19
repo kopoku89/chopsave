@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { AppShell } from "@/components/layout/AppShell";
 import { TopBar } from "@/components/layout/TopBar";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/Button";
 import { TabBar, TabChip } from "@/components/shared/TabChip";
 import { vendorsRepo } from "@/lib/db";

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Badge, DiscountChip } from "@/components/ui/Badge";
+import { Badge, DiscountChip } from "@/components/ui/badge";
 import { PriceTag } from "@/components/pricing/PriceTag";
 import { StarRating } from "@/components/trust/StarRating";
 import {

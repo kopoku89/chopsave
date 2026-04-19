@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 import { AppShell } from "@/components/layout/AppShell";
 import { TopBar } from "@/components/layout/TopBar";
-import { Badge, DiscountChip } from "@/components/ui/Badge";
+import { Badge, DiscountChip } from "@/components/ui/badge";
 import { Button } from "@/components/ui/Button";
 import { PriceTag } from "@/components/pricing/PriceTag";
 import { StarRating } from "@/components/trust/StarRating";

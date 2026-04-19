@@ -3,7 +3,7 @@ import Link from "next/link";
 import { AppShell } from "@/components/layout/AppShell";
 import { TopBar } from "@/components/layout/TopBar";
 import { StatTile } from "@/components/shared/StatTile";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/badge";
 import { OrderStatusBadge } from "@/components/orders/OrderStatusBadge";
 import { ordersRepo, statsRepo, vendorsRepo } from "@/lib/db";
 import { formatGHS, formatRelativeTime } from "@/lib/format";
