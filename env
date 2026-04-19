@@ -1,0 +1,11 @@
+# ChopSave environment variables
+
+# PostgreSQL connection string used by Prisma
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/chopsave?schema=public"
+
+# NextAuth configuration (for future integration)
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="replace-me-with-a-long-random-string"
+
+# Toggle between mock in-memory data (true) and Prisma/DB (false)
+USE_MOCK_DATA="true"
